@@ -73,6 +73,7 @@ const products: { brand: string; category: string; desc: string; icon: LucideIco
   },
   {
     brand: "Drainvac",
+    icon: Wind,
     category: "Central Vacuum Systems",
     desc: "Central vacuum systems for commercial and residential applications. Powerful, quiet, and efficient ducted vacuuming solutions.",
     details: [
