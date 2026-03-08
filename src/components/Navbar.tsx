@@ -47,9 +47,9 @@ const Navbar = () => {
 
         {/* CTA */}
         <div className="hidden md:flex items-center gap-3">
-          <a href="tel:+912226400369" className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <a href="tel:+912228479277" className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors">
             <Phone className="w-4 h-4" />
-            +91 22 2640 0369
+            +91 22 2847 9277
           </a>
           <Link to="/contact">
             <Button className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold">
