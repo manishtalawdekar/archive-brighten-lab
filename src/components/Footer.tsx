@@ -54,18 +54,18 @@ const Footer = () => (
         <div>
           <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-gold">Contact Us</h4>
           <div className="space-y-3">
-            <a href="tel:+912226400369" className="flex items-start gap-2 text-sm opacity-70 hover:opacity-100 transition-opacity">
+            <div className="flex items-start gap-2 text-sm opacity-70">
+              <MapPin className="w-4 h-4 mt-0.5 shrink-0" />
+              <span>D-54, Solaris - 1, Opp. L&T Gate No. 6, Saki Vihar Road, Andheri (E), Mumbai - 400 072</span>
+            </div>
+            <a href="tel:+912228479277" className="flex items-start gap-2 text-sm opacity-70 hover:opacity-100 transition-opacity">
               <Phone className="w-4 h-4 mt-0.5 shrink-0" />
-              +91 22 2640 0369
+              +91 22 2847 9277 / 78 / 79
             </a>
             <a href="mailto:info@aluminaengg.com" className="flex items-start gap-2 text-sm opacity-70 hover:opacity-100 transition-opacity">
               <Mail className="w-4 h-4 mt-0.5 shrink-0" />
               info@aluminaengg.com
             </a>
-            <div className="flex items-start gap-2 text-sm opacity-70">
-              <MapPin className="w-4 h-4 mt-0.5 shrink-0" />
-              <span>Office No. 1, 22 Ashirwad, R.A. Kidwai Road, Wadala (West), Mumbai – 400 031, India</span>
-            </div>
           </div>
         </div>
       </div>
