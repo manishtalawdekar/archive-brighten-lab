@@ -89,6 +89,7 @@ const products: { brand: string; category: string; desc: string; icon: LucideIco
   },
   {
     brand: "Geggus",
+    icon: Footprints,
     category: "Entrance Matting Systems",
     desc: "Architectural entrance matting systems from Germany. Recessed and surface-mounted mats combining functionality with elegant design.",
     details: [
