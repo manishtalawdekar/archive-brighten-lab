@@ -6,9 +6,10 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } f
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
-const products = [
+const products: { brand: string; category: string; desc: string; icon: LucideIcon; details: string[]; longDesc: string }[] = [
   {
     brand: "Dorma",
+    icon: DoorOpen,
     category: "Door Controls & Automatic Doors",
     desc: "World leader in door controls, automatic doors, glass fittings, and access solutions. German engineering meeting architectural beauty.",
     details: [
