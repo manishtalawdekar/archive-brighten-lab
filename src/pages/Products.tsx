@@ -1,14 +1,15 @@
 import Layout from "@/components/Layout";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import { ArrowRight, X, CheckCircle2 } from "lucide-react";
+import { ArrowRight, X, CheckCircle2, DoorOpen, PanelTop, Layers, Flame, Wind, Footprints, LucideIcon } from "lucide-react";
 import { useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
-const products = [
+const products: { brand: string; category: string; desc: string; icon: LucideIcon; details: string[]; longDesc: string }[] = [
   {
     brand: "Dorma",
+    icon: DoorOpen,
     category: "Door Controls & Automatic Doors",
     desc: "World leader in door controls, automatic doors, glass fittings, and access solutions. German engineering meeting architectural beauty.",
     details: [
@@ -24,6 +25,7 @@ const products = [
   },
   {
     brand: "Skyfold",
+    icon: PanelTop,
     category: "Operable Walls",
     desc: "Revolutionary vertically folding operable walls descending from the ceiling. Ideal for hotels, convention centres, and corporate spaces.",
     details: [
@@ -39,6 +41,7 @@ const products = [
   },
   {
     brand: "FunderMax",
+    icon: Layers,
     category: "Exterior & Interior Cladding",
     desc: "Premium high-pressure laminates for interior and exterior cladding. Austrian-engineered panels with limitless design possibilities.",
     details: [
@@ -54,6 +57,7 @@ const products = [
   },
   {
     brand: "McKeon",
+    icon: Flame,
     category: "Fire & Smoke Protection",
     desc: "Fire and smoke-rated door and shutter systems including rolling fire doors, fire shutters, and smoke curtains for large openings.",
     details: [
@@ -69,6 +73,7 @@ const products = [
   },
   {
     brand: "Drainvac",
+    icon: Wind,
     category: "Central Vacuum Systems",
     desc: "Central vacuum systems for commercial and residential applications. Powerful, quiet, and efficient ducted vacuuming solutions.",
     details: [
@@ -84,6 +89,7 @@ const products = [
   },
   {
     brand: "Geggus",
+    icon: Footprints,
     category: "Entrance Matting Systems",
     desc: "Architectural entrance matting systems from Germany. Recessed and surface-mounted mats combining functionality with elegant design.",
     details: [
@@ -127,8 +133,9 @@ const Products = () => {
                 }`}
                 style={{ transitionDelay: `${i * 100}ms` }}
               >
-                <div className="h-44 bg-muted flex items-center justify-center">
-                  <span className="text-3xl font-bold font-display text-muted-foreground/30">{p.brand}</span>
+                <div className="h-44 bg-muted flex flex-col items-center justify-center gap-3 group-hover:bg-accent/5 transition-colors">
+                  <p.icon className="w-12 h-12 text-accent/60 group-hover:text-accent transition-colors" />
+                  <span className="text-2xl font-bold font-display text-muted-foreground/30">{p.brand}</span>
                 </div>
                 <div className="p-6">
                   <span className="text-xs uppercase tracking-wider text-accent font-semibold">{p.category}</span>
