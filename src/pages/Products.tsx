@@ -133,8 +133,9 @@ const Products = () => {
                 }`}
                 style={{ transitionDelay: `${i * 100}ms` }}
               >
-                <div className="h-44 bg-muted flex items-center justify-center">
-                  <span className="text-3xl font-bold font-display text-muted-foreground/30">{p.brand}</span>
+                <div className="h-44 bg-muted flex flex-col items-center justify-center gap-3 group-hover:bg-accent/5 transition-colors">
+                  <p.icon className="w-12 h-12 text-accent/60 group-hover:text-accent transition-colors" />
+                  <span className="text-2xl font-bold font-display text-muted-foreground/30">{p.brand}</span>
                 </div>
                 <div className="p-6">
                   <span className="text-xs uppercase tracking-wider text-accent font-semibold">{p.category}</span>
