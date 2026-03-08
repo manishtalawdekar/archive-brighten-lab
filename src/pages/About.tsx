@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import SEOHead from "@/components/SEOHead";
 import { Target, Eye, Heart, Building2 } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
