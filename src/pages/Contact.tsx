@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import SEOHead from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -18,6 +19,27 @@ const Contact = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title="Contact Alumina Engineering | Mumbai Architectural Products Enquiry"
+        description="Contact Alumina Engineering Pvt. Ltd. in Mumbai for Dorma, Skyfold, FunderMax, McKeon, Armstrong products. Call +91 22 2847 9277 or email info@aluminaengg.com."
+        canonical="https://www.aluminaengg.com/contact"
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Alumina Engineering Pvt. Ltd.",
+          "telephone": "+912228479277",
+          "email": "info@aluminaengg.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "D-54, Solaris - 1, Opp. L&T Gate No. 6, Saki Vihar Road, Andheri (E)",
+            "addressLocality": "Mumbai",
+            "addressRegion": "Maharashtra",
+            "postalCode": "400072",
+            "addressCountry": "IN",
+          },
+          "openingHours": "Mo-Sa 09:00-18:00",
+        }}
+      />
       <section className="bg-gradient-navy py-20 md:py-28">
         <div className="container">
           <h1 className="text-4xl md:text-5xl font-bold font-display text-primary-foreground mb-4">

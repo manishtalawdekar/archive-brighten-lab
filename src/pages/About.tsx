@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import SEOHead from "@/components/SEOHead";
 import { Target, Eye, Heart, Building2 } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
@@ -7,6 +8,11 @@ const About = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title="About Alumina Engineering | Architectural Products Company Mumbai"
+        description="Learn about Alumina Engineering Pvt. Ltd., Mumbai's trusted supplier of premium architectural products from Dorma, Skyfold, FunderMax, McKeon, Armstrong, Drainvac and Geggus."
+        canonical="https://www.aluminaengg.com/about"
+      />
       {/* Hero */}
       <section className="bg-gradient-navy py-20 md:py-28">
         <div className="container">

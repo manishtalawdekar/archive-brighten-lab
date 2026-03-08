@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import SEOHead from "@/components/SEOHead";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { useState } from "react";
@@ -13,6 +14,24 @@ const Products = () => {
 
   return (
     <Layout>
+      <SEOHead
+        title="Products | Dorma, Skyfold, FunderMax, McKeon, Armstrong — Alumina Engineering"
+        description="Explore our range of architectural products: Dorma automatic doors, Skyfold operable walls, FunderMax HPL cladding, McKeon fire doors, Armstrong ceilings, Drainvac vacuum systems, Geggus matting & fire rated doors."
+        canonical="https://www.aluminaengg.com/products"
+        jsonLd={{
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Alumina Engineering Product Portfolio",
+          "description": "Premium architectural products from world-renowned manufacturers",
+          "numberOfItems": products.length,
+          "itemListElement": products.map((p, i) => ({
+            "@type": "ListItem",
+            "position": i + 1,
+            "name": p.brand,
+            "description": p.desc,
+          })),
+        }}
+      />
       <section className="bg-gradient-navy py-20 md:py-28">
         <div className="container">
           <h1 className="text-4xl md:text-5xl font-bold font-display text-primary-foreground mb-4">
