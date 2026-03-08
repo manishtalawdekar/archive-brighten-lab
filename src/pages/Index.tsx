@@ -1,14 +1,20 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Layout from "@/components/Layout";
+import HeroSection from "@/components/home/HeroSection";
+import BrandsCarousel from "@/components/home/BrandsCarousel";
+import MissionSection from "@/components/home/MissionSection";
+import ProductsOverview from "@/components/home/ProductsOverview";
+import ClientsSection from "@/components/home/ClientsSection";
+import ContactCTA from "@/components/home/ContactCTA";
 
-const Index = () => {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
-  );
-};
+const Index = () => (
+  <Layout>
+    <HeroSection />
+    <BrandsCarousel />
+    <MissionSection />
+    <ProductsOverview />
+    <ClientsSection />
+    <ContactCTA />
+  </Layout>
+);
 
 export default Index;
