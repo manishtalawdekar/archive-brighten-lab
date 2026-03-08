@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import { ArrowRight, X, CheckCircle2 } from "lucide-react";
+import { ArrowRight, X, CheckCircle2, DoorOpen, PanelTop, Layers, Flame, Wind, Footprints, LucideIcon } from "lucide-react";
 import { useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
