@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import SEOHead from "@/components/SEOHead";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { useState } from "react";
