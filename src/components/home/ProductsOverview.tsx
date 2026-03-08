@@ -1,38 +1,6 @@
 import { useState } from "react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-
-const products = [
-  {
-    brand: "Dorma",
-    desc: "World leader in door controls, automatic doors, and access solutions. From elegant glass fittings to advanced security systems, Dorma products combine German engineering with architectural beauty.",
-    category: "Door Controls & Automatic Doors",
-  },
-  {
-    brand: "Skyfold",
-    desc: "Revolutionary vertically folding operable walls that descend from the ceiling at the touch of a button. Ideal for hotels, convention centres, and corporate spaces requiring flexible room division.",
-    category: "Operable Walls",
-  },
-  {
-    brand: "FunderMax",
-    desc: "Premium high-pressure laminates (HPL) for interior and exterior cladding. Austrian-engineered panels offering superior durability, weather resistance, and limitless design possibilities.",
-    category: "Exterior & Interior Cladding",
-  },
-  {
-    brand: "McKeon",
-    desc: "Fire and smoke-rated door and shutter systems trusted worldwide. McKeon provides life-safety solutions including rolling fire doors, fire shutters, and smoke curtains for large openings.",
-    category: "Fire & Smoke Protection",
-  },
-  {
-    brand: "Drainvac",
-    desc: "Central vacuum systems for commercial and residential applications. Powerful, quiet, and efficient ducted vacuuming solutions that eliminate the need for portable vacuum cleaners.",
-    category: "Central Vacuum Systems",
-  },
-  {
-    brand: "Geggus",
-    desc: "Architectural entrance matting systems from Germany. Recessed and surface-mounted mats that combine high functionality with elegant design for building entrances.",
-    category: "Entrance Matting Systems",
-  },
-];
+import { products } from "@/data/products";
 
 const ProductsOverview = () => {
   const [active, setActive] = useState(0);
@@ -53,7 +21,6 @@ const ProductsOverview = () => {
         <div
           className={`transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
-          {/* Tabs */}
           <div className="flex flex-wrap justify-center gap-2 mb-10">
             {products.map((p, i) => (
               <button
@@ -70,7 +37,6 @@ const ProductsOverview = () => {
             ))}
           </div>
 
-          {/* Content */}
           <div className="max-w-3xl mx-auto">
             <div className="bg-card rounded-2xl border border-border p-8 md:p-12 shadow-sm">
               <span className="text-xs uppercase tracking-wider text-accent font-semibold">
@@ -82,8 +48,13 @@ const ProductsOverview = () => {
               <p className="text-muted-foreground leading-relaxed">
                 {products[active].desc}
               </p>
-              <div className="mt-8 h-48 rounded-xl bg-muted flex items-center justify-center">
-                <span className="text-muted-foreground/50 text-sm">Product imagery</span>
+              <div className="mt-8 h-48 rounded-xl overflow-hidden">
+                <img
+                  src={products[active].image}
+                  alt={`${products[active].brand} - ${products[active].category}`}
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>
