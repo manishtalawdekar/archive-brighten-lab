@@ -57,6 +57,7 @@ const products: { brand: string; category: string; desc: string; icon: LucideIco
   },
   {
     brand: "McKeon",
+    icon: Flame,
     category: "Fire & Smoke Protection",
     desc: "Fire and smoke-rated door and shutter systems including rolling fire doors, fire shutters, and smoke curtains for large openings.",
     details: [
