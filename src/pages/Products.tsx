@@ -25,6 +25,7 @@ const products: { brand: string; category: string; desc: string; icon: LucideIco
   },
   {
     brand: "Skyfold",
+    icon: PanelTop,
     category: "Operable Walls",
     desc: "Revolutionary vertically folding operable walls descending from the ceiling. Ideal for hotels, convention centres, and corporate spaces.",
     details: [
