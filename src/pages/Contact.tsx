@@ -38,9 +38,9 @@ const Contact = () => {
                 <h2 className="text-2xl font-bold font-display text-foreground mb-6">Contact Information</h2>
                 <div className="space-y-5">
                   {[
-                    { icon: Phone, label: "Phone", value: "+91 22 2640 0369", href: "tel:+912226400369" },
+                    { icon: MapPin, label: "Mumbai Office", value: "D-54, Solaris - 1, Opp. L&T Gate No. 6, Saki Vihar Road, Andheri (E), Mumbai - 400 072" },
+                    { icon: Phone, label: "Phone", value: "+91 22 2847 9277 / 78 / 79", href: "tel:+912228479277" },
                     { icon: Mail, label: "Email", value: "info@aluminaengg.com", href: "mailto:info@aluminaengg.com" },
-                    { icon: MapPin, label: "Address", value: "Office No. 1, 22 Ashirwad, R.A. Kidwai Road, Wadala (West), Mumbai – 400 031, Maharashtra, India" },
                     { icon: Clock, label: "Hours", value: "Mon – Sat: 9:00 AM – 6:00 PM" },
                   ].map((item) => (
                     <div key={item.label} className="flex items-start gap-3">
