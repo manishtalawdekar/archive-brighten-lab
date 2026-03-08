@@ -40,7 +40,7 @@ const Contact = () => {
                   {[
                     { icon: Phone, label: "Phone", value: "+91 22 2640 0369", href: "tel:+912226400369" },
                     { icon: Mail, label: "Email", value: "info@aluminaengg.com", href: "mailto:info@aluminaengg.com" },
-                    { icon: MapPin, label: "Address", value: "Mumbai, Maharashtra, India" },
+                    { icon: MapPin, label: "Address", value: "Office No. 1, 22 Ashirwad, R.A. Kidwai Road, Wadala (West), Mumbai – 400 031, Maharashtra, India" },
                     { icon: Clock, label: "Hours", value: "Mon – Sat: 9:00 AM – 6:00 PM" },
                   ].map((item) => (
                     <div key={item.label} className="flex items-start gap-3">
