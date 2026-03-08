@@ -64,7 +64,7 @@ const Footer = () => (
             </a>
             <div className="flex items-start gap-2 text-sm opacity-70">
               <MapPin className="w-4 h-4 mt-0.5 shrink-0" />
-              <span>Mumbai, Maharashtra, India</span>
+              <span>Office No. 1, 22 Ashirwad, R.A. Kidwai Road, Wadala (West), Mumbai – 400 031, India</span>
             </div>
           </div>
         </div>
