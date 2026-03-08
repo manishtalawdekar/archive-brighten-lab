@@ -41,6 +41,7 @@ const products: { brand: string; category: string; desc: string; icon: LucideIco
   },
   {
     brand: "FunderMax",
+    icon: Layers,
     category: "Exterior & Interior Cladding",
     desc: "Premium high-pressure laminates for interior and exterior cladding. Austrian-engineered panels with limitless design possibilities.",
     details: [
