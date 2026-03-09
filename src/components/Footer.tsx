@@ -62,9 +62,9 @@ const Footer = () => (
               <Phone className="w-4 h-4 mt-0.5 shrink-0" />
               +91 22 2847 9277 / 78 / 79
             </a>
-            <a href="mailto:info@aluminaengg.com" className="flex items-start gap-2 text-sm opacity-70 hover:opacity-100 transition-opacity">
+            <a href="mailto:info@aluminaengg.in" className="flex items-start gap-2 text-sm opacity-70 hover:opacity-100 transition-opacity">
               <Mail className="w-4 h-4 mt-0.5 shrink-0" />
-              info@aluminaengg.com
+              info@aluminaengg.in
             </a>
           </div>
         </div>
