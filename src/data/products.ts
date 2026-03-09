@@ -1,8 +1,5 @@
-import { DoorOpen, PanelTop, Layers, Flame, Wind, Footprints, LayoutGrid, ShieldCheck, Lock, SlidersHorizontal, LucideIcon } from "lucide-react";
+import { DoorOpen, PanelTop, Layers, Flame, Wind, Footprints, LayoutGrid, ShieldCheck, LucideIcon } from "lucide-react";
 import dormaImg from "@/assets/products/dorma.jpg";
-import dormaOpeningImg from "@/assets/products/dorma-opening.jpg";
-import dormaSecuringImg from "@/assets/products/dorma-securing.jpg";
-import dormaDividingImg from "@/assets/products/dorma-dividing.jpg";
 import skyfoldImg from "@/assets/products/skyfold.jpg";
 import fundermaxImg from "@/assets/products/fundermax.jpg";
 import mckeonImg from "@/assets/products/mckeon.jpg";
@@ -21,59 +18,6 @@ export type Product = {
   longDesc: string;
 };
 
-export type DormaCatalog = {
-  title: string;
-  desc: string;
-  icon: LucideIcon;
-  image: string;
-  products: { name: string; desc: string }[];
-};
-
-export const dormaCatalogs: DormaCatalog[] = [
-  {
-    title: "Opening & Closing",
-    desc: "Complete range of door closers, automatic doors, and operators for seamless building access.",
-    icon: DoorOpen,
-    image: dormaOpeningImg,
-    products: [
-      { name: "Door Closers", desc: "Overhead and concealed door closers for controlled, safe door operation" },
-      { name: "Floor Springs", desc: "Heavy-duty floor-mounted pivot systems for glass and timber doors" },
-      { name: "Automatic Sliding Doors", desc: "Sensor-activated sliding door systems for high-traffic entrances" },
-      { name: "Automatic Swing Doors", desc: "Electromechanical swing door operators for barrier-free access" },
-      { name: "Revolving Doors", desc: "Manual and automatic revolving doors for prestigious building entrances" },
-      { name: "Industrial Doors", desc: "High-speed and sectional doors for industrial and logistics facilities" },
-    ],
-  },
-  {
-    title: "Securing",
-    desc: "Electronic access control, locks, and security solutions for modern buildings.",
-    icon: Lock,
-    image: dormaSecuringImg,
-    products: [
-      { name: "Electronic Access Control", desc: "Card readers, biometric scanners, and digital access management" },
-      { name: "Mechanical Locks", desc: "Mortise locks, cylinder systems, and master key solutions" },
-      { name: "Panic & Emergency Exit Hardware", desc: "Touch bars, push pads, and panic bolts for emergency egress" },
-      { name: "Glass Door Locks", desc: "Patch fittings and locks designed specifically for frameless glass doors" },
-      { name: "Hotel Locking Systems", desc: "RFID card-based hotel room access and management systems" },
-      { name: "Time & Attendance", desc: "Integrated workforce management and time recording terminals" },
-    ],
-  },
-  {
-    title: "Dividing",
-    desc: "Movable walls and partition systems for flexible space management.",
-    icon: SlidersHorizontal,
-    image: dormaDividingImg,
-    products: [
-      { name: "Movable Walls – Variflex", desc: "Manually operated acoustic movable wall partitions up to STC 56" },
-      { name: "Movable Walls – Variflat", desc: "Glass and solid panel sliding partition systems" },
-      { name: "Sliding Wall Systems", desc: "Top-hung sliding walls for banquet halls and conference rooms" },
-      { name: "Glass Partitions", desc: "Frameless glass movable walls for modern transparent interiors" },
-      { name: "Acoustic Seals", desc: "Drop seals and perimeter seals for superior sound insulation" },
-      { name: "Operable Wall Accessories", desc: "Tracks, trolleys, and pass doors for operable wall systems" },
-    ],
-  },
-];
-
 export const products: Product[] = [
   {
     brand: "Dorma",
@@ -83,17 +27,17 @@ export const products: Product[] = [
     desc: "World leader in door controls, automatic doors, glass fittings, and access solutions. German engineering meeting architectural beauty.",
     details: [
       "Door closers & floor springs",
+      "Hinges & pivot systems",
+      "Glass fittings & accessories",
+      "Shower enclosures",
+      "Manual sliding systems",
       "Automatic sliding & swing door systems",
-      "Revolving doors",
-      "Electronic access control",
-      "Panic & emergency exit hardware",
       "Movable wall – sliding acoustic partitions",
-      "Glass fittings & shower enclosures",
-      "Hotel locking systems",
-      "Industrial high-speed doors",
+      "Electronic access control solutions",
+      "Panic & emergency exit hardware",
     ],
     longDesc:
-      "Dorma is a global leader in premium access solutions and services. Their comprehensive product range is organised into three catalogs — Opening & Closing, Securing, and Dividing — covering everything from door closers and automatic door systems to electronic access control, locks, movable walls, and glass partitions. With decades of German engineering expertise, Dorma products are found in airports, hospitals, hotels, commercial buildings, and prestigious residences worldwide.",
+      "Dorma is a global leader in premium access solutions and services. Their comprehensive product range covers everything from door closers, floor springs, and hinges to automatic door systems, glass fittings, shower enclosures, and movable wall systems. With decades of German engineering expertise, Dorma products are found in airports, hospitals, hotels, commercial buildings, and prestigious residences worldwide. Every product is designed to combine aesthetics with reliability, ensuring seamless architectural integration.",
   },
   {
     brand: "Skyfold",
