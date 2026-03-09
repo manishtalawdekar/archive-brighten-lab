@@ -83,8 +83,17 @@ const Contact = () => {
               </div>
 
               {/* Map placeholder */}
-              <div className="h-52 rounded-xl bg-muted flex items-center justify-center border border-border">
-                <span className="text-muted-foreground/50 text-sm">Map placeholder</span>
+              <div className="h-52 rounded-xl overflow-hidden border border-border">
+                <iframe
+                  title="Alumina Engineering Office Location"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.682!2d72.8889!3d19.1074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7c3b0000001%3A0x1234567890abcdef!2sSolaris%2C%20Saki%20Vihar%20Rd%2C%20Andheri%20East%2C%20Mumbai%2C%20Maharashtra%20400072!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
               </div>
             </div>
 
