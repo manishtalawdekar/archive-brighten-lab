@@ -21,14 +21,14 @@ const Contact = () => {
     <Layout>
       <SEOHead
         title="Contact Alumina Engineering | Mumbai Architectural Products Enquiry"
-        description="Contact Alumina Engineering Pvt. Ltd. in Mumbai for Dorma, Skyfold, FunderMax, McKeon, Armstrong products. Call +91 22 2847 9277 or email info@aluminaengg.in."
+        description="Contact Alumina Engineering Pvt. Ltd. in Mumbai for Dorma, Skyfold, FunderMax, McKeon, Armstrong products. Call +91 22 2847 9277 or email info@aluminaengg.in"
         canonical="https://www.aluminaengg.com/contact"
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           "name": "Alumina Engineering Pvt. Ltd.",
           "telephone": "+912228479277",
-          "email": "info@aluminaengg.com",
+          "email": "info@aluminaengg.cin,
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "D-54, Solaris - 1, Opp. L&T Gate No. 6, Saki Vihar Road, Andheri (E)",
