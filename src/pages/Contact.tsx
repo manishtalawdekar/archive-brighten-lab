@@ -28,7 +28,8 @@ const Contact = () => {
           "@type": "LocalBusiness",
           "name": "Alumina Engineering Pvt. Ltd.",
           "telephone": "+912228479277",
-          "email": "info@aluminaengg.ciin          "address": {
+          "email": "info@aluminaengg.in",
+          "address": {
             "@type": "PostalAddress",
             "streetAddress": "D-54, Solaris - 1, Opp. L&T Gate No. 6, Saki Vihar Road, Andheri (E)",
             "addressLocality": "Mumbai",
