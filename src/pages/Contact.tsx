@@ -27,7 +27,7 @@ const Contact = () => {
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           "name": "Alumina Engineering Pvt. Ltd.",
-          "telephone": "+912228479277",
+          "telephone": "+912249707173",
           "email": "info@aluminaengg.in",
           "address": {
             "@type": "PostalAddress",
