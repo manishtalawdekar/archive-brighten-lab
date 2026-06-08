@@ -15,8 +15,8 @@ const Products = () => {
   return (
     <Layout>
       <SEOHead
-        title="Products | Dorma, Skyfold, FunderMax, McKeon, Armstrong — Alumina Engineering"
-        description="Explore our range of architectural products: Dorma automatic doors, Skyfold operable walls, FunderMax HPL cladding, McKeon fire doors, Armstrong ceilings, Drainvac vacuum systems, Geggus matting & fire rated doors."
+        title="Products | dormakaba, Skyfold, McKeon, Merino — Alumina Engineering"
+        description="Explore our range of architectural products: dormakaba automatic doors, Skyfold operable walls, McKeon fire doors and Merino laminates & surfaces."
         canonical="https://www.aluminaengg.com/products"
         jsonLd={{
           "@context": "https://schema.org",

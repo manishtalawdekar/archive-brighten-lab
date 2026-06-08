@@ -41,12 +41,10 @@ const Footer = () => (
         <div>
           <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-gold">Our Principals</h4>
           <ul className="space-y-2 text-sm opacity-70">
-            <li>Dorma</li>
+            <li>dormakaba</li>
             <li>Skyfold</li>
-            <li>FunderMax</li>
             <li>McKeon Door Company</li>
-            <li>Drainvac</li>
-            <li>Geggus</li>
+            <li>Merino</li>
           </ul>
         </div>
 

@@ -1,4 +1,4 @@
-const brands = ["DORMA", "SKYFOLD", "FunderMax", "McKEON", "DRAINVAC", "GEGGUS"];
+const brands = ["dormakaba", "SKYFOLD", "McKEON", "MERINO"];
 
 const BrandsCarousel = () => (
   <section className="py-10 bg-muted/50 border-y border-border overflow-hidden">
