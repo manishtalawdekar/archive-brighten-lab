@@ -58,9 +58,9 @@ const Footer = () => (
               <MapPin className="w-4 h-4 mt-0.5 shrink-0" />
               <span>D-54, Solaris - 1, Opp. L&T Gate No. 6, Saki Vihar Road, Andheri (E), Mumbai - 400 072</span>
             </div>
-            <a href="tel:+912228479277" className="flex items-start gap-2 text-sm opacity-70 hover:opacity-100 transition-opacity">
+            <a href="tel:+912249707173" className="flex items-start gap-2 text-sm opacity-70 hover:opacity-100 transition-opacity">
               <Phone className="w-4 h-4 mt-0.5 shrink-0" />
-              +91 22 2847 9277 / 78 / 79
+              +91 22 4970 7173 / +91 99302 79240
             </a>
             <a href="mailto:info@aluminaengg.in" className="flex items-start gap-2 text-sm opacity-70 hover:opacity-100 transition-opacity">
               <Mail className="w-4 h-4 mt-0.5 shrink-0" />
