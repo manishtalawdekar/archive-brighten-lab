@@ -16,7 +16,7 @@ export type Product = {
 
 export const products: Product[] = [
   {
-    brand: "dormakaba",
+    brand: "Dormakaba",
     icon: DoorOpen,
     image: dormaImg,
     category: "Door Controls & Automatic Doors",
@@ -33,7 +33,7 @@ export const products: Product[] = [
       "Panic & emergency exit hardware",
     ],
     longDesc:
-      "dormakaba is a global leader in premium access solutions and services. Their comprehensive product range covers everything from door closers, floor springs, and hinges to automatic door systems, glass fittings, shower enclosures, and movable wall systems. With decades of German-Swiss engineering expertise, dormakaba products are found in airports, hospitals, hotels, commercial buildings, and prestigious residences worldwide. Every product is designed to combine aesthetics with reliability, ensuring seamless architectural integration.",
+      "Dormakaba is a global leader in premium access solutions and services. Their comprehensive product range covers everything from door closers, floor springs, and hinges to automatic door systems, glass fittings, shower enclosures, and movable wall systems. With decades of German-Swiss engineering expertise, Dormakaba products are found in airports, hospitals, hotels, commercial buildings, and prestigious residences worldwide. Every product is designed to combine aesthetics with reliability, ensuring seamless architectural integration.",
   },
   {
     brand: "Skyfold",
