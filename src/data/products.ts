@@ -2,7 +2,7 @@ import { DoorOpen, PanelTop, Layers, Flame, LucideIcon } from "lucide-react";
 import dormaImg from "@/assets/products/dorma.jpg";
 import skyfoldImg from "@/assets/products/skyfold.jpg";
 import mckeonImg from "@/assets/products/mckeon.jpg";
-import merinoImg from "@/assets/products/merino.jpg";
+import marinoImg from "@/assets/products/marino.jpg";
 
 export type Product = {
   brand: string;
@@ -70,21 +70,21 @@ export const products: Product[] = [
       "McKeon Door Company has been the industry standard in fire and smoke protection for over 40 years. Their life-safety products protect large openings in commercial, industrial, and institutional buildings. McKeon fire doors and shutters are UL listed, FM approved, and trusted by fire engineers and building code consultants worldwide. From convention centres to shopping malls, McKeon products provide code-compliant protection without compromising architectural design.",
   },
   {
-    brand: "Merino",
+    brand: "Marino Toilet Partitions",
     icon: Layers,
-    image: merinoImg,
-    category: "Laminates & Surfaces",
-    desc: "India's leading manufacturer of premium decorative laminates, compact panels, and surfacing solutions for interior and exterior applications.",
+    image: marinoImg,
+    category: "Toilet Cubicle Systems",
+    desc: "Premium toilet partition and cubicle systems engineered for commercial washrooms — durable, hygienic, and architecturally refined.",
     details: [
-      "Decorative high-pressure laminates",
-      "Exterior compact HPL panels",
-      "Restroom cubicle & locker systems",
-      "Wide range of decors, woodgrains & solids",
-      "Fire-rated & anti-bacterial options",
-      "Digital & custom laminates",
-      "Ventilated facade systems",
+      "Compact laminate cubicle systems",
+      "Floor-mounted & ceiling-hung options",
+      "Moisture, impact & scratch resistant",
+      "Anti-bacterial surface finishes",
+      "Stainless steel hardware & fittings",
+      "Wide range of decors & colours",
+      "Custom sizes for any washroom layout",
     ],
     longDesc:
-      "Merino is one of India's most trusted names in decorative laminates and surfacing solutions, exported to more than 80 countries. Their range spans interior decorative laminates, exterior compact-grade HPL facade panels, restroom cubicle systems, and specialty surfaces. With hundreds of decors across woodgrains, solids, stones, and digital prints, Merino enables designers to create distinctive interiors and resilient building facades that stand up to India's demanding climate.",
+      "Marino Toilet Partitions deliver premium cubicle systems for commercial, institutional, and hospitality washrooms. Built around compact-grade laminate panels, every system is engineered to withstand heavy traffic while maintaining a clean, contemporary aesthetic. Moisture-proof construction, anti-bacterial surfaces, and corrosion-resistant stainless steel hardware ensure long service life. With a wide palette of decors, finishes, and configurations — including floor-mounted and ceiling-hung options — Marino partitions suit airports, malls, offices, hotels, and educational campuses.",
   },
 ];
