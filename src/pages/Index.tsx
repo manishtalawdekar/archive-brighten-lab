@@ -11,13 +11,13 @@ const Index = () => (
   <Layout>
     <SEOHead
       title="Alumina Engineering Pvt. Ltd. | Premium Architectural Products India"
-      description="Mumbai-based supplier of dormakaba automatic doors, Skyfold operable walls, McKeon fire doors and Merino laminates for India's finest projects."
+      description="Mumbai-based supplier of dormakaba automatic doors, Skyfold operable walls, McKeon fire doors and Marino toilet partitions for India's finest projects."
       canonical="https://www.aluminaengg.com/"
       jsonLd={{
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Alumina Engineering — Premium Architectural Products",
-        "description": "Representing dormakaba, Skyfold, McKeon and Merino in India.",
+        "description": "Representing dormakaba, Skyfold, McKeon and Marino Toilet Partitions in India.",
         "url": "https://www.aluminaengg.com/",
         "isPartOf": { "@type": "WebSite", "name": "Alumina Engineering Pvt. Ltd.", "url": "https://www.aluminaengg.com" },
       }}

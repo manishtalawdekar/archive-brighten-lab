@@ -10,7 +10,7 @@ const About = () => {
     <Layout>
       <SEOHead
         title="About Alumina Engineering | Architectural Products Company Mumbai"
-        description="Learn about Alumina Engineering Pvt. Ltd., Mumbai's trusted supplier of premium architectural products from dormakaba, Skyfold, McKeon and Merino."
+        description="Learn about Alumina Engineering Pvt. Ltd., Mumbai's trusted supplier of premium architectural products from dormakaba, Skyfold, McKeon and Marino Toilet Partitions."
         canonical="https://www.aluminaengg.com/about"
       />
       {/* Hero */}
@@ -38,7 +38,7 @@ const About = () => {
                 Founded with a vision to bridge the gap between global architectural innovation and the Indian market, Alumina Engineering has established itself as a trusted name in the construction industry.
               </p>
               <p>
-                We represent some of the world's finest brands — dormakaba, Skyfold, McKeon Door Company, and Merino — bringing cutting-edge architectural products to India's most prestigious projects.
+                We represent some of the world's finest brands — dormakaba, Skyfold, McKeon Door Company, and Marino Toilet Partitions — bringing cutting-edge architectural products to India's most prestigious projects.
               </p>
               <p>
                 From automatic door systems to operable walls, from high-pressure laminates to fire protection solutions, our comprehensive portfolio addresses every aspect of modern architectural requirements.
