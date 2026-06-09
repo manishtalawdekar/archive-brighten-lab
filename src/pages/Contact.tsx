@@ -21,7 +21,7 @@ const Contact = () => {
     <Layout>
       <SEOHead
         title="Contact Alumina Engineering | Mumbai Architectural Products Enquiry"
-        description="Contact Alumina Engineering Pvt. Ltd. in Mumbai for Dormakaba, Skyfold, McKeon and Marino Toilet Partitions products. Call +91 22 4970 7173 or email info@aluminaengg.in."
+        description="Contact Alumina Engineering Pvt. Ltd. in Mumbai for Dormakaba, Skyfold, McKeon and Merino Toilet Partitions products. Call +91 22 4970 7173 or email info@aluminaengg.in."
         canonical="https://www.aluminaengg.com/contact"
         jsonLd={{
           "@context": "https://schema.org",

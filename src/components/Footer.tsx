@@ -44,7 +44,7 @@ const Footer = () => (
             <li>Dormakaba</li>
             <li>Skyfold</li>
             <li>McKeon Door Company</li>
-            <li>Marino Toilet Partitions</li>
+            <li>Merino Toilet Partitions</li>
           </ul>
         </div>
 
