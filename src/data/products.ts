@@ -70,7 +70,7 @@ export const products: Product[] = [
       "McKeon Door Company has been the industry standard in fire and smoke protection for over 40 years. Their life-safety products protect large openings in commercial, industrial, and institutional buildings. McKeon fire doors and shutters are UL listed, FM approved, and trusted by fire engineers and building code consultants worldwide. From convention centres to shopping malls, McKeon products provide code-compliant protection without compromising architectural design.",
   },
   {
-    brand: "Marino Toilet Partitions",
+    brand: "Merino Toilet Partitions",
     icon: Layers,
     image: marinoImg,
     category: "Toilet Cubicle Systems",
@@ -85,6 +85,6 @@ export const products: Product[] = [
       "Custom sizes for any washroom layout",
     ],
     longDesc:
-      "Marino Toilet Partitions deliver premium cubicle systems for commercial, institutional, and hospitality washrooms. Built around compact-grade laminate panels, every system is engineered to withstand heavy traffic while maintaining a clean, contemporary aesthetic. Moisture-proof construction, anti-bacterial surfaces, and corrosion-resistant stainless steel hardware ensure long service life. With a wide palette of decors, finishes, and configurations — including floor-mounted and ceiling-hung options — Marino partitions suit airports, malls, offices, hotels, and educational campuses.",
+      "Merino Toilet Partitions deliver premium cubicle systems for commercial, institutional, and hospitality washrooms. Built around compact-grade laminate panels, every system is engineered to withstand heavy traffic while maintaining a clean, contemporary aesthetic. Moisture-proof construction, anti-bacterial surfaces, and corrosion-resistant stainless steel hardware ensure long service life. With a wide palette of decors, finishes, and configurations — including floor-mounted and ceiling-hung options — Marino partitions suit airports, malls, offices, hotels, and educational campuses.",
   },
 ];

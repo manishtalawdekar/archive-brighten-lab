@@ -15,7 +15,7 @@ const Products = () => {
   return (
     <Layout>
       <SEOHead
-        title="Products | Dormakaba, Skyfold, McKeon, Marino Toilet Partitions — Alumina Engineering"
+        title="Products | Dormakaba, Skyfold, McKeon, Merino Toilet Partitions — Alumina Engineering"
         description="Explore our range of architectural products: Dormakaba automatic doors, Skyfold operable walls, McKeon fire doors and Marino toilet partitions."
         canonical="https://www.aluminaengg.com/products"
         jsonLd={{

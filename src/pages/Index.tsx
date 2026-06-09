@@ -17,7 +17,7 @@ const Index = () => (
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Alumina Engineering — Premium Architectural Products",
-        "description": "Representing Dormakaba, Skyfold, McKeon and Marino Toilet Partitions in India.",
+        "description": "Representing Dormakaba, Skyfold, McKeon and Merino Toilet Partitions in India.",
         "url": "https://www.aluminaengg.com/",
         "isPartOf": { "@type": "WebSite", "name": "Alumina Engineering Pvt. Ltd.", "url": "https://www.aluminaengg.com" },
       }}
